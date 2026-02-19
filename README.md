@@ -22,7 +22,7 @@ It uses a regex pattern to extract:
 
 # 2. Failed Login Tracking 
 
-Failed attempts are indentified by searching for the keyword "401" in each log file. Each failed attempt is stored in a dictonary: **failed_attempts = defaultdict(list)**
+Failed attempts are identified by searching for the keyword "401" in each log file. Each failed attempt is stored in a dictonary: **failed_attempts = defaultdict(list)**
 
 # 3. Brute-Force Detection Logic
 
@@ -54,9 +54,13 @@ log_line_pattern = re.compile(
    re.IGNORECASE
 )
 
+
+This was my first real attempt at a script and it's defintely not perfect. But that feeling you get when you have been working on it for hours. Figuring out your errors or if you put too many spaces somehwere. When I finally got that script to do what I had intended it to do it was the most satisfying feeling.
+
 # **View full script:**
 [bruteforce_detector.py](https://github.com/MKspencer88/bootCon2025-Python-Security-Automation/blob/main/bruteforce_detector.py)
 
 [**View script in action**](https://github.com/MKspencer88/bootCon2025-Python-Security-Automation/blob/main/artifacts/brute.mp4)
+ 
 
 
