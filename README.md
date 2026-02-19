@@ -6,7 +6,7 @@ This project demonstrates how I used Python to automate the detection of brute-f
 - Identify repeated failed login attempts from the same IP
 - Detect brute-force behavior within a 1-minute window
 - Automatically generate alerts and write them to a file
-- Practice log parsing, regex extraction and automation
+- Practice log parsing, regex extraction, and automation
 
 # Methodology
 
@@ -55,9 +55,9 @@ log_line_pattern = re.compile(
 )
 
 
-This was my first real attempt at a script and it's defintely not perfect. But that feeling you get when you have been working on it for hours. Figuring out your errors or if you put too many spaces somehwere. When I finally got that script to do what I had intended it to do it was the most satisfying feeling.
+This was my first real attempt at a script and I know it's *far* from perfect but I'm proud of it. I was working on it for a few days, because I wanted to know what every single character meant and why I was using it. When I finally worked out all the errors and got it to work I jumped out of my chair. It was a good feeling. 
 
-# **View full script:**
+# **View Full Script:**
 [bruteforce_detector.py](https://github.com/MKspencer88/bootCon2025-Python-Security-Automation/blob/main/bruteforce_detector.py)
 
 [**View script in action**](https://github.com/MKspencer88/bootCon2025-Python-Security-Automation/blob/main/artifacts/brute.mp4)
