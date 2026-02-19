@@ -57,4 +57,6 @@ log_line_pattern = re.compile(
 # **View full script:**
 [bruteforce_detector.py](https://github.com/MKspencer88/bootCon2025-Python-Security-Automation/blob/main/bruteforce_detector.py)
 
+[**View script in action**](https://github.com/MKspencer88/bootCon2025-Python-Security-Automation/blob/main/artifacts/brute.mp4)
+
 
