@@ -54,5 +54,7 @@ log_line_pattern = re.compile(
    re.IGNORECASE
 )
 
+# **View full script:**
+[bruteforce_detector.py](https://github.com/MKspencer88/bootCon2025-Python-Security-Automation/blob/main/bruteforce_detector.py)
 
 
